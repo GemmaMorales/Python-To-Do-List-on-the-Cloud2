@@ -54,11 +54,11 @@ def initialize_todos():
 def save_todos():
     temp = json.dumps(todos)
     r = requests.put(url = 'https://assets.breatheco.de/apis/fake/todos/user/hammycakes', headers = {"Content-Type":"application/json"}, data = temp)
+    if r.status_code == 200:
+        print("You have saved to the todos.")
     print(r.json())
     print(r)
     pass
-    # if r.status_code == 200:
-    #     print("You have saved to the todos.")
     
 
 def load_todos():
