@@ -1,0 +1,15 @@
+{
+	"slug" : "todo-list-cli-with-cloud",
+	"title" : "Todo List CLI on the Cloud",
+	"description": "Todo List CLI using saving and retriving the Todo's on the cloud",
+	"preview": "https://github.com/breatheco-de/exercise-todo-list-cli-with-cloud/blob/master/preview.gif?raw=true",
+	"solution": "https://github.com/breatheco-de/exercise-todo-list-cli-with-cloud/tree/solution",
+	"status": "published",
+	"duration" : 8,
+	"difficulty": "easy",
+    	"solution": "https://github.com/breatheco-de/exercise-todo-list-cli-with-cloud/tree/solution",
+	"technologies": ["python", "terminal", "command line", "http", "http.request", "apis"],
+	"talents": [
+		{ "badge": "identator", "points": 10 }
+	]
+}
